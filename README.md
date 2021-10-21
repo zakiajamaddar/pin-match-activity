@@ -1,2 +1,2 @@
 # pin-match-activity
-Pin matching fun activity
+This is a fun project to generate some pin
