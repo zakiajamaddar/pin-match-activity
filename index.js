@@ -14,7 +14,7 @@ function generatePin() {
     document.getElementById('display-pin').value = pin;
 }
 
-document.getElementById('key-pad').addEventListener('click', function (event) {
+document.getElementById('key-pad').addEventListener('click', function(event){
     const number = event.target.innerText;
     const calcInput = document.getElementById('typed-numbers');
     if (isNaN(number)) {
@@ -28,6 +28,7 @@ document.getElementById('key-pad').addEventListener('click', function (event) {
         calcInput.value = newNumber;
     }
 });
+
 
 function verifyPin() {
     const pin = document.getElementById('display-pin').value;
